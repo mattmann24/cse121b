@@ -89,7 +89,7 @@ const sortby = (temples) => {
             displayTemples(temples.filter(temple => temple.location.includes("Utah")));
             break;
         
-        case 'nonUtah':
+        case 'notutah':
             displayTemples(temples.filter(temple => !(temple.location.includes("Utah"))));
             break;
         
